@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p style="color: blue;">Write a program for which even number wale para get the color of red?</p> 
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+    <p>testing user</p>
+
+    <script>
+        let list = document.getElementsByTagName("p"); // it store in the array 
+    // •	Paragraph 1 → Index 0 (Even)
+	// •	Paragraph 2 → Index 1 (Odd)
+	// •	Paragraph 3 → Index 2 (Even)
+	// •	Paragraph 4 → Index 3 (Odd)
+        for(let i=0; i < list.length; i++){ // 
+            if(i%2==1){ // i is odd {condition}
+                list[i].style.color="red";
+
+                // also change the text
+                list[i].innerHTML=i+1 + " para";
+            }
+        }
+
+
+    </script>
+</body>
+</html>
